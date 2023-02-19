@@ -1,0 +1,44 @@
+.task-1{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#color-input{
+    font-size: 30px;
+    font-weight: bold;
+    border: 2PX solid salmon;
+}
+#change-color-btn{
+    font-size: 30px;
+    font-weight: bold;
+    border: 2PX solid salmon;
+}
+
+.task-2{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#plus-btn{
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#minus-btn{
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.task-3{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
