@@ -1,10 +1,9 @@
 const colorInput = document.getElementById('color-input');
 const changeColorBtn = document.getElementById('change-color-btn');
 
-changeColorBtn.addEventListener('click', function() {
-  const colorValue = colorInput.value;
-  document.body.style.backgroundColor = colorValue;
-});
+changeColorBtn.onclick=function(){
+  document.body.style.backgroundColor=colorInput.value;
+};
 
 
 
@@ -13,32 +12,45 @@ const plusBtn = document.getElementById('plus-btn');
 const minusBtn = document.getElementById('minus-btn');
 let count = 0;
 
-plusBtn.addEventListener('click', function() {
+plusBtn.onclick=function() {
   count++;
   counter.textContent = count;
-});
+};
 
-minusBtn.addEventListener('click', function() {
+minusBtn.onclick=function() {
   if (count > 0) {
     count--;
     counter.textContent = count;
   }
-});
+};
 
  
 
 
 
-function calculateProduct() {
-    let product = 1;
+// function calculateProduct() {
+//     let product = 1;
   
-    for (let i = 10; i <= 15; i++) {
+//     for (let i = 10; i <= 15; i++) {
+//       product *= i;
+//     }
+  
+//     return product;
+//   }
+
+//   alert(calculateProduct()); 
+
+
+
+  function calculateProduct() {
+    const x = parseInt(document.getElementById('x').value);
+    const y = parseInt(document.getElementById('y').value);
+    let product = 1;
+    for (let i = x; i <= y; i++) {
       product *= i;
     }
-  
-    return product;
+    
+    document.getElementById('result').innerHTML = ` ${x} ve ${y} cavab  ${product}.`;
+
   }
-
-  alert(calculateProduct()); 
-
-
+  
