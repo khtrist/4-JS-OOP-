@@ -42,3 +42,29 @@
     margin-top: 50px;
 
 }
+
+
+.task3{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#y{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2PX solid rgb(45, 178, 91);
+    width: 80px;
+}
+#x{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2PX solid rgb(14, 154, 114);
+    width: 80px;
+}
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2PX solid rgb(22, 9, 7);
+    width: 100px;
+}
